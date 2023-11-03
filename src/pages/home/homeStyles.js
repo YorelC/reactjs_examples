@@ -8,14 +8,13 @@ export const sectionStyle = clsx(
   "min-h-screen",
   "py-2",
   "bg-white",
-  "text-white"
+  "text-white",
+  "px-4",
 );
 
 export const divCardsStyle = clsx(
   "grid",
-  "grid-cols-1",
-  "md:grid-cols-2",
-  "lg:grid-cols-3",
+  "grid-cols-1 md:grid-cols-2",
   "gap-4",
   "pt-8",
 );

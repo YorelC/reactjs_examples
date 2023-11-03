@@ -14,7 +14,7 @@ function Home() {
 
 function CardsList() {
   return (
-    <div className={divCardsStyle}>s
+    <div className={divCardsStyle}>
       {cardsFeature.map((card) => (
         <CardFeatureRedirection
           key={card.route}

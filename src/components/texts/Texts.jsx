@@ -6,6 +6,7 @@ export function H1({children}) {
     'font-bold',
     'text-2xl',
     'text-gray-800',
+    'dark:text-gray-100',
   )
 
   return (
@@ -18,6 +19,7 @@ export function H2({children}) {
     'font-bold',
     'text-xl',
     'text-gray-700',
+    'dark:text-gray-50',
   )
 
   return (
@@ -30,6 +32,7 @@ export function H3({children}) {
     'font-bold',
     'text-lg',
     'text-gray-600',
+    'dark:text-gray-50',
   )
 
   return (
@@ -40,6 +43,7 @@ export function H3({children}) {
 export function P({children}) {
   const style = clsx(
     'text-gray-600',
+    'dark:text-gray-200',
     'text-lg'
   )
 
